@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-// Test spring boot application
+// new change: Test spring boot application
 @SpringBootApplication
 @EntityScan(basePackages = {"com.application.*"} )
 @EnableJpaRepositories(basePackages = {"com.application.*"})
